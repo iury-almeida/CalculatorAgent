@@ -1,0 +1,69 @@
+{
+  "version": "3.0",
+  "adapters": {
+    "default": "opencode"
+  },
+  "testing": {
+    "mode": "TDD",
+    "commands": [
+      "cd repositories/iury-almeida/CalculatorAgent/server && npm test",
+      "cd repositories/iury-almeida/CalculatorAgent/client && npm test -- --run"
+    ],
+    "coverage": {
+      "unit": 95,
+      "integration": 90,
+      "e2e": 100
+    }
+  },
+  "limits": {
+    "activeIncrements": 3
+  },
+  "planning": {
+    "deepInterview": "off"
+  },
+  "sync": {
+    "enabled": false,
+    "direction": "bidirectional",
+    "autoSync": false,
+    "includeStatus": true,
+    "autoApplyLabels": true
+  },
+  "livingDocs": false,
+  "project": {
+    "name": "calculator",
+    "version": "0.1.0"
+  },
+  "repository": {
+    "provider": "local",
+    "umbrellaRepo": true
+  },
+  "auto": {
+    "enabled": true,
+    "maxRetries": 20,
+    "requireTests": false,
+    "requireValidation": true,
+    "requireJudgeLLM": false,
+    "skipQualityGates": false
+  },
+  "lsp": {
+    "enabled": true
+  },
+  "workspace": {
+    "name": "calculator",
+    "repos": [
+      {
+        "id": "CalculatorAgent",
+        "path": "repositories\\iury-almeida\\CalculatorAgent",
+        "name": "CalculatorAgent",
+        "prefix": "CAL",
+        "sync": {}
+      }
+    ],
+    "rootRepo": {
+      "github": {
+        "owner": "iury-almeida",
+        "repo": "CalculatorAgent"
+      }
+    }
+  }
+}

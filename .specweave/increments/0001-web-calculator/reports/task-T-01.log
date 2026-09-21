@@ -1,0 +1,22 @@
+$ cd repositories/iury-almeida/CalculatorAgent/server && npm test
+# exit 0 — 2026-09-21T20:46:39.406Z
+
+
+> calculator-server@1.0.0 test
+> jest --coverage
+
+PASS ./calculator.test.js
+PASS ./index.test.js
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |     100 |      100 |     100 |     100 |                   
+ calculator.js |     100 |      100 |     100 |     100 |                   
+ index.js      |     100 |      100 |     100 |     100 |                   
+---------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       27 passed, 27 total
+Snapshots:   0 total
+Time:        1.432 s, estimated 4 s
+Ran all test suites.

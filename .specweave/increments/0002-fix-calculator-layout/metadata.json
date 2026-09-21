@@ -1,0 +1,20 @@
+{
+  "id": "0002-fix-calculator-layout",
+  "status": "completed",
+  "type": "bug",
+  "priority": "P1",
+  "created": "2026-09-21T21:19:11.337Z",
+  "updated": "2026-09-21T21:30:22.127Z",
+  "lastActivity": "2026-09-21T21:30:22.127Z",
+  "testMode": "TDD",
+  "coverageTarget": 95,
+  "feature_id": null,
+  "epic_id": null,
+  "externalLinks": {},
+  "planning": {
+    "parallel": false
+  },
+  "project": "calculator",
+  "readyForReviewAt": "2026-09-21T21:30:22.112Z",
+  "approvedAt": "2026-09-21T21:30:22.127Z"
+}

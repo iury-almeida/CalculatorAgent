@@ -1,0 +1,5 @@
+$ manual: verify README exists and has setup/run commands
+# exit 1 — 2026-09-21T21:09:09.115Z
+
+'manual:' is not recognized as an internal or external command,
+operable program or batch file.

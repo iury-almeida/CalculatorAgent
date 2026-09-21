@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-09-21T20:24:39.899Z",
+  "summary": {
+    "criticalModules": 0,
+    "highModules": 0,
+    "mediumModules": 0,
+    "lowModules": 1
+  },
+  "queue": [
+    {
+      "moduleName": "CalculatorAgent",
+      "modulePath": "repositories\\iury-almeida\\CalculatorAgent",
+      "workItemCount": 0,
+      "priority": "low",
+      "topWorkItems": []
+    }
+  ]
+}

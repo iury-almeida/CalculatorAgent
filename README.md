@@ -1,0 +1,26 @@
+# calculator
+
+A [SpecWeave](https://verified-skill.com) project: work happens in increments under `.specweave/increments/NNNN-slug/`, each with a `spec.md` (Problem, acceptance criteria, Approach), a `tasks.md`, and an append-only `ledger.jsonl` that records who claimed and finished what.
+
+## Working on this project
+
+| Step | Command |
+|---|---|
+| Plan a feature | `specweave create-increment "title"` (Claude Code: `/sw:increment`) |
+| Work the tasks | `specweave task next` → `specweave task claim T-NN` → implement → `specweave task done T-NN --run "<test cmd>"` |
+| Verify | `specweave verify` |
+| Close | `specweave complete NNNN` |
+| Stop / hand off | `specweave handoff` |
+
+Agent instructions live in `CLAUDE.md` (Claude Code) and `AGENTS.md` (Codex, OpenCode, Cursor, Gemini, Aider). Both files keep a short managed block; the **Commands** table and **Project notes** at the bottom are yours to edit.
+
+## Structure
+
+```
+.specweave/
+  increments/NNNN-slug/   spec.md · tasks.md · ledger.jsonl · handoff.md · reports/
+  docs/                    ADRs and hand-written docs
+  config.json
+```
+
+Docs: https://verified-skill.com · Source: https://github.com/anton-abyzov/specweave

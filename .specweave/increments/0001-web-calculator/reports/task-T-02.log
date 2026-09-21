@@ -1,0 +1,41 @@
+$ cd repositories/iury-almeida/CalculatorAgent/server && npm test -- calculator.test.js
+# exit 0 — 2026-09-21T20:47:33.291Z
+
+
+> calculator-server@1.0.0 test
+> jest --coverage calculator.test.js
+
+PASS ./calculator.test.js
+  calculate
+    addition
+      √ adds two positive numbers (2 ms)
+      √ adds negative numbers
+      √ adds positive and negative
+      √ adds decimals
+    subtraction
+      √ subtracts two positive numbers (1 ms)
+      √ subtracts negative numbers
+      √ subtracts resulting in negative
+    multiplication
+      √ multiplies two positive numbers (1 ms)
+      √ multiplies by zero
+      √ multiplies negative numbers (1 ms)
+    division
+      √ divides two positive numbers
+      √ divides resulting in decimal
+      √ throws on division by zero (8 ms)
+    invalid operator
+      √ throws on invalid operator
+      √ throws on invalid operator string
+
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------|---------|----------|---------|---------|-------------------
+All files      |     100 |      100 |     100 |     100 |                   
+ calculator.js |     100 |      100 |     100 |     100 |                   
+---------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       15 passed, 15 total
+Snapshots:   0 total
+Time:        0.431 s, estimated 1 s
+Ran all test suites matching /calculator.test.js/i.

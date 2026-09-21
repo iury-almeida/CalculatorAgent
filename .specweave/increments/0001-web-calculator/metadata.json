@@ -1,0 +1,20 @@
+{
+  "id": "0001-web-calculator",
+  "status": "completed",
+  "type": "feature",
+  "priority": "P1",
+  "created": "2026-09-21T20:30:11.310Z",
+  "updated": "2026-09-21T21:11:01.242Z",
+  "lastActivity": "2026-09-21T21:11:01.242Z",
+  "testMode": "TDD",
+  "coverageTarget": 95,
+  "feature_id": null,
+  "epic_id": null,
+  "externalLinks": {},
+  "planning": {
+    "parallel": false
+  },
+  "project": "calculator",
+  "readyForReviewAt": "2026-09-21T21:11:01.228Z",
+  "approvedAt": "2026-09-21T21:11:01.242Z"
+}

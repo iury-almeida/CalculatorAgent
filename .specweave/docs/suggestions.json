@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-21T20:24:39.907Z",
+  "summary": {
+    "totalModules": 1,
+    "modulesDocumented": 0,
+    "modulesPartial": 0,
+    "modulesUndocumented": 1,
+    "totalWorkItems": 0,
+    "matchedWorkItems": 0,
+    "coveragePercent": 0
+  },
+  "priorityZones": [],
+  "immediateActions": [],
+  "moduleStatuses": [
+    {
+      "moduleName": "CalculatorAgent",
+      "modulePath": "repositories\\iury-almeida\\CalculatorAgent",
+      "hasReadme": false,
+      "hasAnalysis": false,
+      "coverage": 0,
+      "workItemCount": 0,
+      "priority": "low",
+      "status": "none"
+    }
+  ],
+  "additionalSources": [],
+  "notAnalyzed": [],
+  "painPointsAddressed": [],
+  "isUmbrella": true,
+  "unmatchedSuggestions": [],
+  "orphanedModules": [
+    {
+      "name": "CalculatorAgent",
+      "path": "repositories\\iury-almeida\\CalculatorAgent",
+      "reason": "No documentation and no work items - potential tech debt or unused code"
+    }
+  ],
+  "teamSummary": {}
+}

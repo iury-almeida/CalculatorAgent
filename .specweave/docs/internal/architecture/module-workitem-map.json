@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-09-21T20:24:39.898Z",
+  "stats": {
+    "totalWorkItems": 0,
+    "matchedWorkItems": 0,
+    "unmatchedWorkItems": 0,
+    "modulesWithWorkItems": 0
+  },
+  "modules": {
+    "CalculatorAgent": {
+      "moduleName": "CalculatorAgent",
+      "modulePath": "repositories\\iury-almeida\\CalculatorAgent",
+      "matches": [],
+      "workItemCount": 0,
+      "priority": "low",
+      "docStatus": "none"
+    }
+  },
+  "unmatchedItems": []
+}
